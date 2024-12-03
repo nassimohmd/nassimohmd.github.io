@@ -336,3 +336,16 @@ template {
 [hidden] {
   display: none;
 }
+
+body {
+  background-color: hsl(0, 0%, 10%);
+}
+
+a {
+  color: hsl(200, 80%, 70%);
+}
+
+::selection {
+  background: hsl(200, 80%, 25%);
+  color: white;
+}
